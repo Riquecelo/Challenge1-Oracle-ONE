@@ -4,33 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <main>
-        <h1>Challenge</h1>
-        <section class="caixa-form">
-            <form action="">
-                <label for="input-texto">Somente letras minúsculas, sem acento</label>
-                <input class="estilo-input" type="text" id="input-texto" placeholder="digite seu texto aqui">
-                <button class="estilo-btn"  type="submit" id="btn-cripto">Criptografar</button>
-                <button class="estilo-btn"  type="submit" id="btn-descripto">Decriptogafar</button>
-            </form>
-        </section>
-
-        <section class="caixa-msg">
-            <h3>Mensagem Criptografada</h3>
-            <input class="estilo-input" type="text" id="msg">
-            <button class="estilo-btn" type="submit">copiar</button>
-        </section>
+        <header>
+            <h1>Challenge</h1>
+        </header>
         
+        <div class="container">
+            <section class="caixa-form">
+                <form action="">
+                    <label for="input-texto">Somente letras minúsculas, sem acento</label>
+                    <input class="estilo-input" type="text" id="input-texto" placeholder="digite seu texto aqui">
+                    <button class="estilo-btn"  type="submit" id="btn-cripto">Criptografar</button>
+                    <button class="estilo-btn"  type="submit" id="btn-descripto">Decriptogafar</button>
+                </form>
+            </section>
+
+            <section class="caixa-msg">
+                <h3>Mensagem Criptografada</h3>
+                <input class="estilo-input" type="text" id="msg">
+                <button class="estilo-btn" id="copiar" type="submit">copiar</button>
+            </section>
+        </div>
         <footer>
             <address>
-                <ul>Feito por
-                    <li>Marcelo Santos</li>
-                    <li>LinkedIn:</li>
-                    <li>GitHub:</li>
-                </ul>
+                <p>Feito por: Marcelo Santos</p> 
+                <p>LinkedIn:</p>
+                <p>GitHub:</p>
+            
             </address>
         </footer>
     </main>
